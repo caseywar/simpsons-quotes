@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Fetch from '../components/quotes/Fetch';
 import Quote from '../components/quotes/Quote';
-import { fetchQuote } from '../services/simpsonsApi';
+import { fetchQuote } from '../services/SimpsonsApi.js';
 
 const SimpsonsQuote = () => {
     const [quote, setQuote] = useState({});
